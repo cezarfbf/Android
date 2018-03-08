@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_main"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_fragment_cotainer"
+        android:layout_below="@id/tb_main"
+        android:layout_above="@+id/inc_tb_botton"
+        android:background="#45ffaa09">
+
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/inc_tb_botton"
+        layout="@layout/toobar_button" />
+
+</RelativeLayout>
