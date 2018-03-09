@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="softex.cadastroaluno.FormularioActivity">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_listar_alunos" android:title="@string/listar_alunos"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_formulario" android:title="@string/cadastrar_alunos"
+        app:showAsAction="never" />
+</menu>
